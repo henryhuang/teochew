@@ -1,0 +1,11 @@
+---
+name: teochew
+version: 1
+
+libraries:
+    -name: "django"
+    version: "1.2.7"
+    
+handlers:
+    -url: "static"
+    static_dir: "teochew/static"
